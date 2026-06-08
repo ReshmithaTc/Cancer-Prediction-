@@ -212,6 +212,7 @@ def create_engineered_features(data):
                         .fillna(0)
                     )
 
+
                 elif base_col == 'Alcohol_Consumption':
                     engineered_data[col] = (
                         engineered_data[base_col]
