@@ -16,7 +16,6 @@ from sklearn.neighbors import KNeighborsClassifier
 
 import pickle
 
-
 # ===================== LOAD DATA =====================
 file_path = "AI_Brosnan_CancerDataset.xlsx"
 df = pd.read_excel("AI_Brosnan_CancerDataset.xlsx", sheet_name="Cleaned_Data")
